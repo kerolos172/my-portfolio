@@ -413,4 +413,295 @@ header nav .logo img{
     transition: 0.3s;
 }.contact .btn:hover{
     scale: 1.1;
+} 
+/* start responsivr*/
+header .links .logo{
+    display: none;
+}
+.close_menu{
+    display: none;
+}
+.icon_menu{
+    display:none ;
+}
+@media (max-width:1250px){
+   .contanier{
+    width:90% ;
+   } 
+    
+}@media (max-width:1000px){
+    header nav .links{
+     position: fixed;
+     top: 0;  
+     flex-direction: column; 
+     width: 400px;
+     background-color: var(--black_color);
+     left: -400px;
+     padding: 50px 0;
+     height: 100%;
+     border-right: 1px solid var(--border-color);
+     text-align: center;
+     transition: 0.3s ease-in-out ;
+
+    }
+    header nav .links.active{
+        left:0;
+    }
+    .close_menu{
+        display: block;
+        font-size: 28px;
+        position: absolute;
+        top:30px;
+        right:30px ;
+    }
+    header .links .logo{
+        display: block;
+    }.icon_menu{
+        display: block;
+        font-size: 28px;
+    }
+      
+       /*responsive home*/
+       .hero .div_Text h4{
+        font-size: 25px;
+       }
+        .hero .div_Text h1{
+        font-size: 55px;
+       }
+        .hero .div_Text h2{
+        font-size: 55px;
+       }
+        .hero .div_Text p{
+        font-size: 16px ;
+        margin: 30px auto;
+
+       }
+        .hero .btn{
+        font-size: 18px;
+        padding: 16px 40px;
+       }
+        .hero .container{
+        flex-direction: column;
+
+       }
+       .hero .div_Text{
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 30px ;
+       }
+       .hero .btns{
+        justify-content: center;
+       }
+       .hero{
+        height: auto;
+       }
+       .about .container{
+        flex-direction: column;
+        
+       }
+        .about .div_Text{
+        width: 100%;
+        margin-bottom: 50px;
+       }
+       .about .div_img{
+        width:75%;
+       }
+
+
+
+
+       .services .boxs .box{
+        width: 47%;
+        margin-bottom: 30px;
+       }
+       .projects .project_box .text h3 a{
+         font-size: 25px;
+       }
+       .projects .project_box .text h4{
+        font-size: 16px;
+       } 
+       .projects .project_box .text p{
+        font-size: 14px;
+       }
+       .projects .project_box .text{
+        width: calc(50% - 50px);
+        margin-left: 50px;
+       }
+       .contact .contanier{
+        flex-direction: column;
+       }
+       .contact .soial_contact{
+        width: 100%;
+        margin-bottom: 40px ;
+       }
+       .contact .soial_contact .links{
+        flex-direction: row;
+        flex-wrap: wrap;
+       }
+       .contact .soial_contact .links a{
+        width:50% ;
+        font-size: 16px;
+       }
+       .contact .soial_contact .links a i{
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+       }
+       .contact form{
+         width: 80%;
+         margin: 0 auto;
+       }
+       .contact .btn{
+        font-size:16px ;
+        padding: 13px 28px  ;
+       }
+
+
+
+
+
+}
+@media (max-width:500px){
+    
+    .btn{
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+
+
+    header nav .icons a{
+        font-size: 15px;
+    }
+    header nav .icons{
+        gap: 15px;
+        align-items: center;
+    } 
+    header nav .logo img{
+        width: 150px;
+    }
+    header nav .links{
+        width: 100%;
+        left: -100%;
+    }
+    .icon_menu{
+        margin-left: 15px;
+    }
+
+
+
+    .hero .div_Text h4{
+        font-size: 22px;
+       }
+        .hero .div_Text h1{
+        font-size: 40px;
+       }
+        .hero .div_Text h2{
+        font-size:45px;
+       }
+        .hero .div_Text p{
+        font-size: 14px ;
+        margin: 25px auto;
+        width: 100%;
+
+       }
+        .hero .btn{
+        font-size: 16px;
+        padding: 14px 30px;
+       }
+       .hero .div_img {
+         width: 75%;
+       }
+       .about .div_Text h2{
+        font-size: 30px;
+       }
+       .about .div_Text h4{
+        font-size: 20px;
+       }
+       .about .div_Text p{
+        font-size: 14px ;
+
+       }
+       .about .div_Text ul li{
+        width: 100%;
+        font-size: 14px;
+       }
+       .about .div_img{
+        width: 85px;
+       }
+       .top_section h2{
+        font-size: 22px;
+       }
+       .services .boxs .box{
+        width: 100%;
+       }
+       .services .boxs .box i{
+        font-size: 55px;
+       }
+       .projects .project_box{
+        flex-direction: column;
+       }
+       .projects .project_box.project_box_2{
+        flex-direction: column;
+       }
+       .projects .project_box img{
+        width: 100%;
+        margin-bottom: 30px;
+       }
+       .projects .project_box .text{
+        width:100% ;
+        margin-left: 0px
+       }
+       .projects .project_box .text p{
+        margin: 20px 0 30px;
+       }
+       .projects .project_box .text h3 a{
+        font-size:23px ;
+       }
+       .contact .soial_contact .links{
+        flex-direction: column;
+       }
+       .contact .soial_contact .links a{
+        width: 100% ;
+       } 
+       .projects{
+        padding-bottom: 40px;
+       }
+       
+       .contact{
+        padding-top: 0;
+       }.contact .top_section{
+        margin-bottom: 60px;
+       }
+       .contact form{
+        width: 100%;
+       }
+       .contact form .inpts_form input{
+        width:100% ;
+        padding: 15px 20px ;
+        margin-bottom: 20px;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
